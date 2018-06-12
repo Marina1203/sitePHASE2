@@ -1,0 +1,1103 @@
+@charset "UTF-8";
+/* feuille de style marina site HTML CSS phase2 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+
+   v2.0 | 20110126
+
+   License: none (public domain)
+
+*/
+
+
+
+*{/* l'étoile signifie tout aal */
+
+    box-sizing: border-box;
+
+ }
+
+ 
+
+html, body, div, span, applet, object, iframe,
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+
+a, abbr, acronym, address, big, cite, code,
+
+del, dfn, em, img, ins, kbd, q, s, samp, 
+
+small, strike, strong, sub, sup, tt, var, 
+
+b, u, i, center, 
+
+dl, dt, dd, ol, ul, li,
+
+fieldset, form, label, legend, 
+
+table, caption, tbody, tfoot, thead, tr, th, td, 
+
+article, aside, canvas, details, embed, 
+
+figure, figcaption, footer, header, hgroup, 
+
+menu, nav, output, ruby, section, summary, 
+
+time, mark, audio, video { 
+
+    margin: 0;
+
+    padding: 0;
+
+    border: 0;
+
+    font-size: 100%;
+
+    font: inherit;
+
+    vertical-align: baseline;
+
+}
+
+
+
+/* les typos google */
+
+/* font-family: 'Anton', sans-serif;
+
+font-family: 'Lemonada', cursive;
+
+font-family: 'Oswald', sans-serif; */
+
+
+
+
+
+/* Feuille de style damien santo site de HTML/CSS PHASE 2 */
+
+
+
+body {
+
+    /* background: rgb(94, 245, 48); */
+    font-family: 'Anton', sans-serif;
+    background-image: url('../img/concrete-texture.png')
+
+}
+
+
+
+h1 {
+    font-size: 45px;
+    font-family: 'anton' , sans-serif;
+    color: #2980b9;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+
+
+
+h2 {
+    font-size: 35px;
+    color: #2c3e50;
+    padding: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #aaa;
+
+}
+
+
+
+h3 {
+    font-size: 22px;
+    color: #2c3e50;
+    padding: 15px;
+    text-shadow: 1px 1px 2px #aaa;
+
+}
+
+
+
+h4 {
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+
+
+blockquote {
+    font-style: italic;
+    font-size: 120%;
+    font-family: 'lemonada', serif;
+
+}
+
+
+
+blockquote i {
+    font-size: 200%;
+    vertical-align: middle;
+    color: #2980b9;
+
+}
+
+
+
+.position1 {
+    margin: 20px;
+    position: relative;
+    bottom: 15px;
+
+}
+
+
+
+.position2 {
+    margin: 20px;
+
+    position: relative;
+
+    top: 15px;   
+
+}
+
+
+
+strong {
+
+    font-weight: bold;
+
+}
+
+
+
+
+
+/* header index */
+
+header {
+
+    height: 175px;
+
+    background: #2c3e50;
+
+}
+
+
+
+#main {
+
+    background: white;
+
+}
+
+
+
+#logo {
+
+    float: left;
+
+    width: 25%;
+
+    background: #2c3e50;
+
+    padding: 15px;
+
+    text-align: center;
+
+}
+
+
+
+#slogan {
+
+    float: left;
+
+    width: 50%;
+
+    background: #2c3e50;
+
+    padding-top: 50px; 
+
+}
+
+
+
+#social {
+
+    float: left;
+
+    width: 20%;
+
+}
+
+
+
+#social i {
+
+    background: #2c3e50;
+
+    font-size: 30px;
+
+    text-align: right;
+
+    padding: 15px 30px 0 0;
+
+    display: block;
+
+}
+
+
+
+header a {
+
+    text-decoration: none;
+
+    color: #10828c;
+
+}
+
+/* fin header */
+
+
+
+/* nav // navigation */
+
+nav {
+
+    background: #2980b9;
+
+    height: 70px;
+
+    border-bottom: 8px solid #6acafc;
+
+    text-align: center;
+
+    padding: 15px;
+
+}
+
+
+
+nav a {
+
+    background: #6acafc;
+
+    margin: 10px;
+
+    padding: 2px 10px;
+
+    border-radius: 10px 0px;
+
+    border: 2px solid #fff;  
+
+    color: #2c3e50;
+
+    text-decoration: none;
+
+    font-size: 20px;
+
+    font-family: 'oswald', sans-serif;
+
+    transition: 0.5s;/* transition sur le a marche avec le :hover    */
+
+}
+
+
+
+nav a:hover {
+
+    color: #fff;
+
+    background: #a6d6b3;
+
+}
+
+
+
+.active {
+
+    color: #fff;
+
+    background: #a6a9d6;
+
+}
+
+/* fin nav */
+
+
+
+/* les zones principal */
+
+main {
+
+    background: rgba(178, 178, 178, 0.30);
+
+    width: 1000px;
+
+    margin: 0 auto;
+
+}
+
+
+
+aside {
+
+    height: 250px;
+
+    background: #a6d6b3;
+
+}
+
+
+
+section {
+
+    margin-top: 50px;
+
+    padding: 20px;
+
+}
+
+
+
+footer {
+
+    height: 300px;
+
+    background: #2980b9;
+    margin-top: 20px;
+
+}
+
+/* fin des zones */
+
+
+
+/* le retour en haut de page */
+
+
+
+button {
+
+    font-size: 350%;
+
+    background: transparent;
+
+    border: none;
+
+    color: #2c3e50;  
+
+    position: fixed;/* le button est fixe a 40px et a 20px de la droite */
+
+    bottom: 40px;
+
+    right: 20px;  
+
+}
+
+
+
+/* page texte voir aussi blockquote */
+
+
+
+
+
+
+
+.clear {
+
+    clear: both;
+
+}
+
+
+
+
+
+
+
+/* fin de page texte */
+
+
+
+/* page sélecteur */
+
+
+
+p {
+
+    padding: 5px;
+
+}
+
+
+
+.select p {
+
+    color: #2c3e50;
+
+}
+
+
+
+.select p:first-of-type {/* 1er enfant du type désigné */
+
+    background: #2980b9;
+
+}
+
+
+
+.select p:last-of-type {/* denier du type désigné */
+
+    background: #2980b9;
+
+}
+
+
+
+.select p:nth-of-type(4), p:nth-of-type(2) {
+
+    background: greenyellow;
+
+    width: 500px;
+
+}
+
+
+
+.select *:last-child {
+
+    font-size: 30px;
+
+    border: thin solid black;
+
+}
+
+
+
+.select .zoneA {
+
+    color: orangered;
+
+}
+
+
+
+.select .zoneB {
+
+    color: olive;
+
+}
+
+
+
+.select div:not(.zoneB) {
+
+    font-size: 50px;
+
+}
+
+
+
+.select .zoneB .couleurbleu {
+
+    color: blue;
+
+    font-size: 16px;
+
+}
+
+
+
+.select #zoneD span {
+
+    color: #32ff32;
+
+    /* font-size: 30px; */
+
+    font-style: italic;
+
+}
+
+/* fin du secteur */
+
+
+
+/* debut pour image */
+
+
+
+.imageFond {
+
+    background: #000 url(../img/fond.jpg) no-repeat;
+
+    background-size: cover;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.imageFond p {
+
+    width: 75%;
+
+    margin: 250px auto 250px auto;
+
+    padding: 20px;
+
+    background: rgba(255, 255, 255, 0.60);
+
+    border-radius: 10px;
+
+    font-size: 120%;
+
+}
+
+
+
+.aucentre {
+
+    text-align: center;
+
+}
+
+
+
+img[src="img/toureiffel.jpg"] {/* on cible que cette image la */
+
+    margin: auto;
+
+    display: block;
+
+    padding: 20px;
+
+    background: white;
+
+}
+
+
+
+.imagegolden {
+
+    margin: 20px;
+
+    border: 5px solid #fff;
+
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+
+    transition: 1s;
+
+}
+
+
+
+.imagegolden:hover {
+
+    transform: rotate(-7deg);
+
+    border: 15px solid #fff;
+
+}
+
+
+
+.rotation360:hover {
+
+    transform: rotate(-360deg);
+
+}
+
+/* fin des images */
+
+
+
+
+
+/* pa position */
+
+/* debut position absolute */
+
+
+
+.centre {
+
+    text-align: center;
+
+    font-size: 30px;
+
+    color: #2c3e50;
+
+    margin: auto;
+
+    width: 200px;
+
+    height: 200px;
+
+    background: #2980b9;
+
+}
+
+
+
+.absolute {
+
+    text-align: center;
+
+    font-size: 30px;
+
+    color: #2c3e50;
+
+    width: 100px;
+
+    height: 100px;
+
+    position: absolute;/* voir aussi le button */
+
+    top: 24%;
+
+    left: 10%;
+
+    background: yellow;
+
+}
+
+
+
+/* positions relative */
+
+
+
+.relative {
+    background: #2980b9;
+    width: 400px;
+    height: 400px;
+    position: relative;/* relative a la section dans laquelle se trouve la div .relative */
+    left: 100px;
+    bottom: 10px;
+}
+
+
+
+.relative div {
+
+    text-align: center;
+    font-size: 30px;
+    color: #2c3e50;
+    background: #32ff32;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 0;
+    top: 0;
+
+}
+
+
+
+.trente {
+    font-size: 22px;
+    color: blue;
+    width: 30%;
+    background:yellow;
+    padding: 20px;
+}
+
+
+
+.cinquante {
+    font-size: 22px;
+    color: blue;
+    width: 50%;
+    background: orangered;
+    padding: 20px;
+}
+
+
+
+.soixante {
+    font-size: 22px;
+    color: blue;
+    width: 60%;
+    background: orangered;
+    padding: 20px;
+}
+
+
+
+.cent {
+    font-size: 22px;
+    color: blue;
+    width: 100%;
+    background: red;
+    padding: 20px;
+}
+
+
+
+/* nav footer */
+
+
+
+ul {
+    display: inline-block;
+    position: relative;
+    padding-right: 100px;
+    left: 450px;
+}
+
+
+
+li {
+
+    list-style: none;
+
+    padding: 20px;
+
+}
+footer div {
+    float: left;
+}
+.float {
+
+    height: 170px;
+ 
+    width: 170px;
+ 
+    background: #FFF1A8
+ 
+ ;
+ 
+    margin: 10px;
+ 
+    padding-top: 2px;
+ 
+    float: left;
+ 
+    text-align: center;
+ 
+    font-size: 25px;
+ 
+    border: 2px solid darkred;
+ 
+ }.dernier {
+ 
+    height: 170px;
+ 
+    width: 170px;
+ 
+    background: #FFF1A8;
+ 
+    margin: 10px;
+ 
+    padding-top: 2px;
+ 
+    text-align: center;
+ 
+    font-size: 25px;
+ 
+    border: 2px solid darkred;
+ 
+ }
+
+.zone {
+    height: 70px;
+    background: #333;
+}
+.zone1,.zone2, .zone3, .zone4 {
+    height: 250px;
+    width: 25%;
+    float: left;
+}
+.zone1 {
+    background: #2D5C7F
+}
+.zone2 {
+    background: #fff1A8;
+}
+.zone3 {
+    background: #FF8F56;
+}
+.zone4 {
+    background: #984A59;
+}
+/* Exercice sur le float */
+.flex {
+    display: flex;
+    /*  également repartie horizontalement */
+  /*   justify-content: space-between; */
+    /* espace égal autour de chaque div  */
+    justify-content: space-around;
+    /* direction de colonne de haut en bas */
+    /* flex-direction: column; */
+   /*  flex-direction: row-reverse; */
+}
+.flex div {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    background: #2980b9;
+    font-size: 50px;
+    color: white;
+}
+/* Page avec du zoning */
+/* zoning 1 */
+#zoning1 {
+background: #6acafc;
+width: 800px;
+text-align: center;
+margin: auto;
+box-shadow: 1px 1px 2px white;
+}
+#zoning1 header {
+    height: 70px;
+    background: rgb(10, 10, 172);
+}
+#zoning1 aside {
+    height: 525px;
+    width: 20%;
+    background: rgb(233, 74, 233);
+    float: left;
+}
+#zoning1 section {
+    height: 525px;
+    width: 80%;
+    background: #32ff32;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+/* .....zoning 2..... */
+#zoning2 {
+    background: rgb(150, 84, 216);
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    }
+    #zoning2 header {
+       height: 70px;
+       background: #10828c;
+
+    }
+    #zoning2 aside {
+     height: 525px;
+     width: 20%;
+     float: left;
+    }
+    #zoning2 .middle {
+     float: left;
+     width: 60%;
+    }
+    /* .....zoning 3..... */
+    #zoning3 {
+    background: rgb(248, 106, 11);
+    width: 800px;
+    text-align: center;
+    color: white;
+    margin: auto;
+    }
+  
+    #zoning3 section {
+     height: 525px;
+     width: 50%;
+     background: forestgreen;
+     float: left;
+     margin: 0;
+     padding: 0;
+     border: 1px solid yellow;
+    }
+    #zoning3 footer {
+        width: 100%;
+        background:yellowgreen;
+        float: left;
+        border-radius: 2em;
+        
+    }
+    /* zoning4....... */
+    #zoning4 {
+       width: 700px;
+       background: lightskyblue;
+       text-align: center;
+       margin: 0 auto;
+    }
+    #zoning4 header {
+        height: 100px;
+        background: red;
+        margin: 0 auto;
+    }
+    #zoning4 nav {
+        height: 50px;
+        border: none;
+        background: #32ff32;
+    }
+    #zoning4 section {
+        height: 500px;
+        margin: 20px;
+        background: lightcoral;
+    }
+    #zoning4 footer {
+        height: 50px;
+        background: lemonchiffon;
+    }
+    /* zoning 5 ...... */
+    #zoning5 {
+        background-color: #2980b9;
+        margin: 0 auto;
+        text-align: center;
+        border: thin solid brown;
+        width: 1000px;
+    }
+    #zoning5 header {
+        background: #32ff32;
+        height: 100px;
+    }
+    #zoning5 nav {
+        background: #a6a9d6;
+        height: 50px;
+        border-bottom: 8px solid blue;
+    }
+    #zoning5 section {
+        background: darkolivegreen;
+    
+        padding: 0;
+        height: 500px;
+        width: 1000px;
+        
+    }
+    #zoning5 .section .z1, .z2, .z3, .z4 {
+        height: 250px;
+        width: 50%;
+        float: left;
+        position: relative;
+        
+    }
+    #zoning5 .section .z1, .z2, .z3, .z4 p {
+        line-height: 250px;
+    }
+    #zoning5 .z1, .z4 {
+        background: red;
+    }
+    #zoning5 .z3, .z2 {
+        background: yellow;
+    }
+    #zoning6 {
+        width: 800px;
+        margin: 0 auto;
+        color: #984A59;
+    }
+    #zoning6 header {
+        background: #10828c;
+        height: 200px;
+    }
+    .haut1 {
+        width: 25%;
+        float: left;
+        background: #6acafc;
+        height: 100%;
+        
+    }
+    .haut2 {
+        width: 50%;
+        float: left;
+        background: darkmagenta;
+        height: 100%;
+    }
+    .haut3 {
+        width: 25%;
+        float: left;
+        background: darkgreen;
+        height: 100%;
+    }
+    #zoning6 nav {
+        border: none;
+        height: 100px;
+    }
+    #zoning6 aside {
+        width: 25%;
+        float: left;
+        background: tomato;
+        height: 700px;
+    }
+    #zoning6 section {
+        float: left;
+        width: 75%;
+        background: #32ff32;
+        margin: 0;
+        padding: 0;
+
+    }
+    #zoning6 .a {
+        height: 250px;
+        background: #10828c;
+        float: left;
+        width: 50%;
+        text-align: center;
+    }
+    #zoning6 .b {
+        height: 250px;
+        background: yellowgreen;
+        float: left;
+        width: 50%;
+        text-align: center;
+    }
+    #zoning6 .diaporama {
+        height: 250px;
+        background: mediumslateblue;
+        text-align: center;
+    }
+    #zoning6 .c, .e {
+    height: 200px;
+    background: black;
+    color: #a6a9d6;
+    float: left;
+    width: 25%;
+    text-align: center;
+    }
+    #zoning6 .d, .f {
+        height: 200px;
+        background: lightseagreen;
+        color: #a6a9d6;
+        float: left;
+        width: 25%;
+        text-align: center;
+    }
+    /* page tableau */
+    .tableau table {
+        border-collapse: collapse;
+        border: 2px solid blue;
+        margin: auto;
+        width: 80%;
+        padding: 5px;
+        color: darkblue;
+       
+    }
+    .tableau td {
+        border: 2px solid blue; 
+        padding: 5px;
+    }
+    .tableau thead, .tableau tfoot {
+        background: lightcoral;
+        border: 5px solid darkblue;
+        text-align: center;
+    }
+    .tableau caption {
+        background: lightgreen;
+        border: 5px solid darkblue;
+        height: 50px;
+        text-align: center;
+        padding-left: 5px;
+        font-size: 25px;
+    }
+    
+   
+    
+   
+

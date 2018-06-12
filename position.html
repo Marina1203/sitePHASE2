@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- les typo google font anton, lemonada et oswald -->
+
+    <link href="https://fonts.googleapis.com/css?family=Anton|Lemonada:300,400|Oswald:300,400" rel="stylesheet"> 
+
+    <!-- font awesome en cdn -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <!-- La description qui s'affiche sur un resultat de recheche google -->
+
+    <meta name="description" content="Site de la phase 2 Damien Santo Pantin 2018/2019 LePoles">
+
+    <!-- Les mots clefs utiles pour les moteurs de recherche moins utilisées de nos jours -->
+
+    <meta name="keywords" content="HTML, CSS, damien santo, lepoles, pantin">
+
+    <!-- L'auteur de la page  -->
+
+    <meta name="author" content="Damien Santo" >
+
+    <title>Site PHASE 2 - Position</title>
+
+    <!-- Ma feuille de style -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <div id="logo">
+
+            <a href="#logo">
+
+                <button type="button"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></button>
+
+            </a>
+
+            <img src="img/logo.png" alt="logo">
+
+        </div><!-- fin id logos -->
+
+
+
+        <div id="slogan">
+
+            <a href="index.html" title="Mon premier site en HTML accueil">
+
+                <h1>Mon premier site en HTML5  et CSS3</h1>
+
+            </a>
+
+        </div><!-- fin id slogan -->
+
+
+
+        <div id="social">
+
+            <a href="https://www.instagram.com/?hl=fr" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+
+            <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
+
+        </div><!-- fin id social -->
+        <div class="clear"></div><!-- reprend le flux normal -->
+
+
+
+    </header><!-- fin header -->
+
+    <nav>
+
+        <!--zone du menu les liens pour passer de page en page -->
+        <div class="ancreNav">
+
+            <a href="index.html" title="Accueil">Acceuil</a>
+
+            <a href="texte.html" title="Texte">Texte</a>
+
+            <a href="selecteur.html" title="Sélecteur">Sélecteur</a>
+
+            <a href="image.html" title="Image">Image</a>
+
+            <a href="position.html" title="Position" class="active">Position</a>
+
+            <a href="zoning.html" title="Zoning">Zoning</a>
+
+            <a href="tableau.html" title="Tableau">Tableaux</a>
+
+            <a href="liste.html" title="Liste">Liste</a>
+
+            <a href="lien_menu.html" title="Lien_menu">Lien</a>
+
+            <a href="formulaire.html" title="Formulaire">Formulaire</a>
+
+            <a href="multimedia.html" title="Multimedia">Multimédia</a>
+
+            <a href="animation.html" title="Animation">Animation</a>
+
+        </div>
+
+    </nav><!-- fin nav -->
+
+
+
+    <main><!-- contenu principal -->
+
+        <section>
+            <h3>Centrer un élément de type block</h3>
+            <div class="centre">N° 1</div>
+        </section><!-- fin section 1 -->
+
+            <hr width="50%">
+        <section>
+            <h3>Position absolute</h3>
+            <p>N°2  : un carrée jaune ; regardez en haut</p>
+            <div class="absolute">N° 2</div>
+       </section><!-- fin section 2 -->
+
+        <section>
+            <h3>Position relative</h3>
+            <div class="relative">
+                <div>N° 3</div>
+            </div>
+        </section><!-- fin section 3 -->
+
+        <section>
+            <h3>Position fixed</h3>
+            <p>cf. le boutton vers le haut (embas a droite)</p>
+        </section><!-- fin section 4 -->
+
+        <section>
+            <h3>Le pourcentage</h3>
+            <div class="trente">30%</div>
+            <div class="cinquante">50%</div>
+            <div class="cent">100%</div>
+        </section><!-- fin section 5 -->
+         <section>
+                <h3>L'attribut float</h3>
+                <div class="float">1</div>
+                <div class="float">2</div>
+                <div class="float">3</div>
+                <div class="float">4</div>
+                <div class="float clear">5</div>
+                <div class="float">6</div>
+                <div class="float">7</div>
+                <div class="float clear">8</div>
+                <div class="float">9</div>
+                <div class="clear dernier">10</div>
+  
+            </section>
+
+        </section><!-- fin section 6 -->
+
+
+
+        <section>
+
+            <h3>Exercice sur le float</h3>
+            <div class="zone"></div>
+            <div class="zone1"></div>
+            <div class="zone2"></div>
+            <div class="zone3"></div>
+            <div class="zone4"></div>     
+            <div class="zone clear"></div>
+          
+
+        </section><!-- fin section 7 -->
+
+
+
+        <section>
+
+            <h3>Flexbox</h3>
+            <article class="flex">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </article>
+
+        </section><!-- fin section 8 -->
+
+
+
+    </main><!-- fin id main -->
+
+
+
+    <footer>
+
+       
+
+           
+
+    
+
+        <ul>
+
+            <li>Accueil</li>
+
+            <li>texte </li>
+
+            <li>sélecteur</li>
+
+        </ul>
+
+    
+
+    
+
+    <ul>
+
+        <li>Image</li>
+
+        <li>rzc</li>
+
+        <li>acrr</li>
+
+    </ul>
+
+    
+
+    <ul>
+
+        <li>ghfu</li>
+
+        <li>htyut</li>
+
+        <li>djhndty</li>
+
+    </ul>
+
+       
+
+    </footer><!-- fin footer -->
+
+    
+
+    
+
+</body>
+
+</html>
