@@ -100,6 +100,7 @@ h1 {
 
 
 
+
 h2 {
     font-size: 35px;
     color: #2c3e50;
@@ -747,13 +748,12 @@ img[src="img/toureiffel.jpg"] {/* on cible que cette image la */
 
 
 
-ul {
+/* ul {
     display: inline-block;
     position: relative;
     padding-right: 100px;
     left: 450px;
 }
-
 
 
 li {
@@ -762,7 +762,7 @@ li {
 
     padding: 20px;
 
-}
+} */
 footer div {
     float: left;
 }
@@ -1069,7 +1069,7 @@ box-shadow: 1px 1px 2px white;
         width: 25%;
         text-align: center;
     }
-    /* page tableau */
+    /* .page tableau..... */
     .tableau table {
         border-collapse: collapse;
         border: 2px solid blue;
@@ -1096,7 +1096,118 @@ box-shadow: 1px 1px 2px white;
         padding-left: 5px;
         font-size: 25px;
     }
-    
+    /* la page des listes....... */
+    ul.fruit {
+        list-style: none;
+
+    }
+     ul.fruit li {
+        display: inline;
+        margin: 15px;
+    }
+     li .fas{
+        font-size: 90%;
+        color: darkolivegreen;
+
+    }
+     li .fas:hover {
+        font-size: 150%;
+        color: darkmagenta;
+    }
+    .imbriquee, .imbriquee ul {
+        padding-left: 15px;
+    }
+    .imbriquee {
+        cursor: pointer;
+    }
+    .imbriquee ul {
+        display: none;
+    }
+    .europe:hover ul, .asie:hover ul {
+        display: block;
+    }
+    .imbriquee li ul li:hover {
+        font-size: 200%;
+        background: #32ff32;
+        display: inline;
+        box-shadow: 5px 10px 10px gray;
+        transition-duration: 1s;
+    }
+    /* fin de liste */
+    /* page liste */
+    .ancre {
+        text-align: center;
+        padding: 100px;
+    }
+    .ancre a {
+        margin: 8px;
+   padding: 5px 10px;
+   border-radius: 15px;
+   background:  #2c3e50;
+   color: white;
+   text-decoration: none;
+   font-size: 20px;
+   box-shadow: 0px 0px 10px 3px black;
+    }
+    .ancre a:hover {
+        box-shadow: none;
+        transition-duration: 0.5s;
+        text-shadow: 1px 5px 10px gray;
+    }
+    #menu nav {
+        background: transparent;
+    }
+    #menu ul li {
+        display: inline-block;
+    }
+    #menu nav a {
+        padding: 10px;
+        color: gray;
+        text-decoration: none;
+        background: darkcyan;
+        transition: 1s ease-in; /* lent sur le début et accelere vers la fin */
+    }
+    #menu nav a:hover {
+        color: white;
+        background: #2980b9;
+    }
+    /* le menu avec les menus deroulants */
+    #menuDeroulant {
+        height: 650px;
+    }
+    #menuDeroulant nav {
+        width: 90%;
+        margin: 0 auto;
+        background: transparent;
+        border: none;
+    }
+    #menuDeroulant nav ul li{
+        float: left;
+        list-style: none;
+        width: 20%;
+
+    }
+    #menuDeroulant ul ul {
+        display: none;
+    }
+    #menuDeroulant nav ul li ul li {
+        border-top: 1px solid black;
+        width: 100%;
+    }
+    #menuDeroulant nav li {
+        background: palevioletred;
+    }
+    #menuDeroulant nav li a {
+        padding: 4px 0 4px;
+        display: block;
+    }
+    #menuDeroulant ul {
+        text-align: center;
+    }
+    #menuDeroulant nav ul.niveau1 li.sousMenu:hover ul.niveau2 {
+        display: block;
+    }
+
    
     
    
