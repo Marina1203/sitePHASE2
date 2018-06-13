@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- les typo google font anton, lemonada et oswald -->
+    <link href="https://fonts.googleapis.com/css?family=Anton|Lemonada:300,400|Oswald:300,400" rel="stylesheet"> 
+    <!-- font awesome en cdn -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- La description qui s'affiche sur un resultat de recheche google -->
+    <meta name="description" content="Site de la phase 2 Marina Louchnikova Pantin 2018/2019 LePoles">
+    <!-- Les mots clefs utiles pour les moteurs de recherche moins utilisées de nos jours -->
+    <meta name="keywords" content="HTML, CSS, marina louchnikova, lepoles, pantin">
+    <!-- L'auteur de la page  -->
+    <meta name="author" content="Marina Louchnikova" >
+    <title>Site PHASE 2 - Formulaire</title>
+    <!-- Ma feuille de style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div id="logo">
+            <a href="#logo">
+                <button type="button"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></button>
+            </a>
+            <img src="img/logo.png" alt="logo">
+        </div><!-- fin id logos -->
+        <div id="slogan">
+            <a href="index.html" title="Mon premier site en HTML accueil">
+                <h1>Mon premier site en HTML5  et CSS3</h1>
+            </a>
+        </div><!-- fin id slogan -->
+
+        <div id="social">
+            <a href="https://www.instagram.com/?hl=fr" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
+        </div><!-- fin id social -->
+
+        <div class="clear"></div><!-- reprend le flux normal -->
+
+    </header><!-- fin header -->
+    <nav>
+        <!-- zone du menu les liens pour passer de page en page -->
+        <div class="ancreNav">
+            <a href="index.html" title="Accueil" >Acceuil</a>
+            <a href="texte.html" title="Texte">Texte</a>
+            <a href="selecteur.html" title="Sélecteur">Sélecteur</a>
+            <a href="image.html" title="Image">Image</a>
+            <a href="position.html" title="Position">Position</a>
+            <a href="zoning.html" title="Zoning">Zoning</a>
+            <a href="tableau.html" title="Tableau">Tableaux</a>
+            <a href="liste.html" title="Liste">Liste</a>
+            <a href="lien_menu.html" title="Lien_menu">Lien</a>
+            <a href="formulaire.html" title="Formulaire" class="active">Formulaire</a>
+            <a href="multimedia.html" title="Multimedia">Multimédia</a>
+            <a href="animation.html" title="Animation">Animation</a>
+        </div>
+    </nav><!-- fin nav -->
+
+    <main><!-- contenu principal -->
+        <h2>Formulaire</h2>
+        <section class="formulaire">
+            <!-- method : maniere de faire circuler les donnees (POST OU GET) -->
+            <!-- action : url de destination -->
+            <!-- enctype pour envoyer un fichier corectement -->
+            <form method="POST" action="inscription.php"
+            enctype="multipart/form-data">
+        <label for="pseudo">Pseudo *</label>
+        <input type="text" id="pseudo" name="pseudo" required><br>
+
+        <label for="prenom">Prenom</label>
+        <input type="text" id="prenom" name="prenom" required><br>
+
+        <label for="password">Mot de passe</label>
+        <input type="password" name="password" id="password"><br>
+
+        <label for="email">Courriel</label>
+        <input type="email" name="email" id="email"><br>
+
+        <label for="cv">Votre cv en .pdf</label>
+        <input type="file" id="cv" name="cv"><br>
+
+        <p>Quels sont vos fruits préférés ?</p>
+       <label for="orange">Orange</label>
+       <input type="checkbox" id="orange" value="orange">
+       <label for="fraise">Fraise</label>
+       <input type="checkbox" id="fraise" value="fraise">
+       <label for="kiwi">Kiwi</label>
+       <input type="checkbox" id="kiwi" value="kiwi">
+       <label for="cerise">Cerise</label>
+       <input type="checkbox" id="cerise" value="cerise"><br>
+
+       <p>Si vous devez sauver un légume de la destruction; lequel ?</p><br>
+       
+            <form>
+                <label for="avis">Votre</label>
+                <select name="Choix de légumes" size="1">
+                <option value="choux">choux</option>
+                <option value="topinambour">topinambour</option>
+                <option value="panais">panais</option>
+                <option value="carottes">carottes</option>
+            
+                </select><br><br>
+                
+       <label for="message">Message</label>
+       <!-- textarea c'est un endroit pour laisser un message -->
+       <textarea id="message" name="message" rows="5"
+       cols="25"></textarea><br>
+
+       <input type="submit" name="envoyer" value="Envoyer">
+       <input type="reset" name="annuler" value="Annuler">
+            </form><br><br>
+        
+    
+
+    </form>
+        </section>
+
+    </main><!-- fin id main -->
+
+    <footer>
+        <!-- pied de page -->
+    </footer><!-- fin footer -->
+</body>
+
+</html>
+
+
+
+
+
+
