@@ -10,15 +10,15 @@
     <!-- les typo google font anton, lemonada et oswald -->
     <link href="https://fonts.googleapis.com/css?family=Anton|Lemonada:300,400|Oswald:300,400" rel="stylesheet"> 
     <!-- font awesome en cdn -->
-   <!--     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="css/fontawesome-all.css">
+<!--     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"> -->
+<link rel="stylesheet" href="css/fontawesome-all.css">
     <!-- La description qui s'affiche sur un resultat de recheche google -->
     <meta name="description" content="Site de la phase 2 Marina Louchnikova Pantin 2018/2019 LePoles">
     <!-- Les mots clefs utiles pour les moteurs de recherche moins utilisées de nos jours -->
     <meta name="keywords" content="HTML, CSS, marina louchnikova, lepoles, pantin">
     <!-- L'auteur de la page  -->
     <meta name="author" content="Marina Louchnikova" >
-    <title>Site PHASE 2 - Acceuil</title>
+    <title>Site PHASE 2 - Animation</title>
     <!-- Ma feuille de style -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -60,31 +60,52 @@
             <a href="lien_menu.html" title="Lien_menu">Lien</a>
             <a href="formulaire.html" title="Formulaire">Formulaire</a>
             <a href="multimedia.html" title="Multimedia">Multimédia</a>
-            <a href="animation.html" title="Animation">Animation</a>
+            <a href="animation.html" title="Animation" class="active">Animation</a>
         </div>
     </nav><!-- fin nav -->
 
     <main><!-- contenu principal -->
-        <aside><!-- contenu secondaire -->
-            <!-- de coté -->
-        </aside>
-        <section><!-- zone du contenu regroupement thématique, texte, titre, ect.... -->
-            <div>
-                <h2>Ici un titre 2</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae voluptatem officia dolore inventore nostrum debitis aliquam porro tenetur delectus sunt, voluptatibus odit iste repellendus cum iure dolores ut officiis assumenda!</p>
-                <!-- zone supplémantaire de contenu div -->
+        <h2>Animation en CSS</h2>
+        <section>
+            <h3>Infobulles</h3>
+            <div class="infoBulle">
+                <p>
+                    <a href="#">Passez la souris <span>Coucou!Je suis une pop-up!  <i class="far fa-comment-alt"></i></span></a>
+                </p>
+                <p>
+                    <a href="#">Ici aussi... <span>Et moi aussi je suis le pop-up!</span></a>
+                </p>
+                <p>
+                    <a href="#">Une fois encore allez-y <span>Et moi aussi je suis la benjamine;</span></a>
+                </p>
             </div>
-            <span>
-                <h3>Ici un titre 3</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere dolor assumenda debitis rem corrupti, vel cum eaque dicta odio eveniet, nam aut officia, eos distinctio quisquam voluptate labore nihil? Hic!</p>
-                <!-- zone supplémantaire de contenu span -->
-            </span>
-            <article>
-                <h4>Ici un titre 4</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ullam repellendus rerum corporis quidem, autem eveniet magni aspernatur odit nam quam explicabo eos asperiores debitis at dignissimos. Culpa, dolores laborum!</p>
-                <!-- zone supplémantaire de contenu article -->
-            </article>
-        </section><!-- fin de section -->
+        </section>
+        <section>
+            <h3>Effetes de survols avec des transitions et des filtres</h3>
+            <ul class="imgEffets">
+                   <li> <img src="img/survol_img1.jpg" alt=""></li>
+                   <li> <img src="img/survol_img2.jpg" alt=""></li>
+                   <li> <img src="img/survol_img3.jpg" alt=""></li>
+                   <li> <img src="img/survol_img4.jpg" alt=""></li>
+            </ul>
+        </section>
+        <div class="clear"></div>
+        <section>
+                <h3>Rotation d'un menu en CSS3</h3>
+                <article id="menuRotate">
+                    <dl class="menu">
+                        <dt class="btnRot">Partager</dt>
+                        <dd><a href="#">...</a></dd>
+                        <dd><a href="#">Google +</a></dd>
+                        <dd><a href="#">Facebook</a></dd>
+                        <dd><a href="#">Twitter</a></dd>
+                    </dl>
+                    <div class="masque"></div>
+                    <div class="ombre"></div>
+                </article>
+            </section>
+            <div class="clear"></div>
+       
 
     </main><!-- fin id main -->
 
