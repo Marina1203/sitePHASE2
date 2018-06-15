@@ -11,13 +11,11 @@
 
 */
 
+/* l'étoile signifie tout aal */
+
+  
 
 
-*{/* l'étoile signifie tout aal */
-
-    box-sizing: border-box;
-
- }
 
  
 
@@ -77,29 +75,18 @@ font-family: 'Oswald', sans-serif; */
 
 /* Feuille de style damien santo site de HTML/CSS PHASE 2 */
 
-
-
 body {
-
     /* background: rgb(94, 245, 48); */
     font-family: 'Anton', sans-serif;
     background-image: url('../img/concrete-texture.png')
-
 }
-
-
-
 h1 {
     font-size: 45px;
     font-family: 'anton' , sans-serif;
     color: #2980b9;
     text-align: center;
     letter-spacing: 1px;
-
 }
-
-
-
 
 h2 {
     font-size: 35px;
@@ -107,79 +94,42 @@ h2 {
     padding: 20px;
     font-weight: bold;
     text-shadow: 1px 1px 2px #aaa;
-
 }
-
-
 
 h3 {
     font-size: 22px;
     color: #2c3e50;
     padding: 15px;
     text-shadow: 1px 1px 2px #aaa;
-
 }
-
-
-
 h4 {
     text-align: center;
     margin-top: 30px;
-
 }
-
-
-
 blockquote {
     font-style: italic;
     font-size: 120%;
     font-family: 'lemonada', serif;
-
 }
-
-
-
 blockquote i {
     font-size: 200%;
     vertical-align: middle;
     color: #2980b9;
-
 }
-
-
-
 .position1 {
     margin: 20px;
     position: relative;
     bottom: 15px;
-
 }
-
-
-
 .position2 {
     margin: 20px;
-
     position: relative;
-
     top: 15px;   
-
 }
-
-
-
 strong {
-
     font-weight: bold;
-
 }
-
-
-
-
-
 /* header index */
-
 header {
     height: 175px;
     background: #2c3e50;
@@ -205,30 +155,16 @@ header {
     width: 20%;
 }
 
-
-
 #social i {
-
     background: #2c3e50;
-
     font-size: 30px;
-
     text-align: right;
-
     padding: 15px 30px 0 0;
-
     display: block;
-
 }
-
-
-
 header a {
-
     text-decoration: none;
-
     color: #10828c;
-
 }
 
 /* fin header */
@@ -238,110 +174,112 @@ header a {
 /* nav // navigation */
 
 nav {
-
     background: #2980b9;
-
     height: 70px;
-
     border-bottom: 8px solid #6acafc;
-
     text-align: center;
-
     padding: 15px;
-
 }
 
 
 
 nav a {
-
     background: #6acafc;
-
     margin: 10px;
-
     padding: 2px 10px;
-
     border-radius: 10px 0px;
-
     border: 2px solid #fff;  
-
     color: #2c3e50;
-
     text-decoration: none;
-
     font-size: 20px;
-
     font-family: 'oswald', sans-serif;
-
     transition: 0.5s;/* transition sur le a marche avec le :hover    */
-
 }
-
-
 
 nav a:hover {
-
     color: #fff;
-
     background: #a6d6b3;
-
 }
-
-
 
 .active {
-
     color: #fff;
-
     background: #a6a9d6;
-
 }
-
 /* fin nav */
 
-
-
 /* les zones principal */
-
 main {
-
     background: rgba(178, 178, 178, 0.30);
-
     width: 1000px;
-
     margin: 0 auto;
 
 }
 
-
-
 aside {
-
-    height: 250px;
-
-    background: #a6d6b3;
-
+   height: 250px;
+   background: lightgreen;
+   box-sizing: border-box;
+  
+   
 }
 
+.englob {
+    width: 1000px;
+    height: 600px;
+  
 
+}
+.zonegauche {
+    width: 300px;
+    height: 600px;
+    float: left;
+    background: lightgreen;
+}
+.zonedroite {
+    width: 700px;
+    height: 490px;
+    float: right;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.rouge1 {
+    width: 250px;
+    height: 125px;
+    float: left;
+    background: red;
+}
+.blanc1 {
+    width: 250px;
+    height: 125px;
+    float: left;
+    background:white;
+}
+.bleu1 {
+    width: 250px;
+    height: 125px;
+    float: left;
+    background:blue;
+}
+.noir1 {
+    width: 250px;
+    height: 125px;
+    float: left;
+    background: black;
+}
 
 section {
-
-    margin-top: 50px;
-
-    padding: 20px;
-
+    /* margin-top: 50px;
+    padding: 20px; */
+    width: 1000px;
+    height: 250px;
+    border-radius: 3em;
+   
 }
 
-
-
 footer {
-
     height: 300px;
-
     background: #2980b9;
     margin-top: 20px;
-
 }
 
 /* fin des zones */
@@ -1361,7 +1299,7 @@ box-shadow: 1px 1px 2px white;
         height: 135px;
         top: 0;
         left: 0;
-        background: linear-gradient( #1584ce, rgb(18, 103, 231));
+        background: linear-gradient( #709bb8, rgb(18, 103, 231));
     }
     #menuRotate .ombre {
         /* cette div est positionnée au bas de la .masque et donne une impression de relief */
@@ -1381,23 +1319,25 @@ box-shadow: 1px 1px 2px white;
         width: 100%;
         height: 23px;
         padding-top: 5px;
+       
+        
     }
     #menuRotate dl {
         position: relative;
-        top: 0;
+        top: 10;
         left:50%;
         margin-left: -75px;
         width: 150px;
         height: 155px;
         color: darkorange;
         text-align: center;
-        background: #6acafc;
+        background: rgb(202, 68, 202);
         border-radius: 0 0 6px rgb(126, 14, 14);
         transform-origin: 50% 120px;
         animation: bounceOut 0.7s ease-in-out;
     }
     #menuRotate dd:hover {
-        transform: rotate(-180deg);
+        transform: rotate(180deg);
     }
     #menuRotate dl:hover {
         transform: rotate(-180deg);
@@ -1411,18 +1351,37 @@ box-shadow: 1px 1px 2px white;
         text-decoration: none;
         height: 24px;
         padding: 3px 0;
-        color: white;
+    
     }
     #menuRotate dd a:hover {
-        background: #32ff32;
+        background: darkblue;
     }
     #menuRotate dl:hover {
         transform: rotate(-180deg);
-        animation: bounceIn 3s ease-in-out;
+        animation: bounceIn 1s ease-in-out;
     }
+    /* La règle @ @keyframes permet aux auteurs de définir les étapes qui composent la séquence d'une animation CSS. Cela permet de contrôler une animation plus finement que ce qu'on pourrait obtenir avec les transitions. */
   
+    @keyframes bounceIn {
+        from { transform: rotate(0deg); } /* de la */
+        75% { transform: rotate(-200deg);}
+        90% {transform: rotate(-175deg);}
+        to {transform: rotate(-180deg);}  /* a la */
+    }
+    @keyframes bounceOut {
+        from { transform: rotate(0deg); } /* de la */
+        0% { transform: rotate(-180deg);}
+        10% {transform: rotate(-165deg);}
+        to {transform: rotate(-360deg);}  /* a la */
+    }
+    
+    .menu {
+        border-radius: 2em;
+        border: 2px solid #10828c;
+       
+    }
 
-  
+  /* FIN -THE END */
 
 
    
