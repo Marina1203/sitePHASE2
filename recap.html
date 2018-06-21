@@ -1,23 +1,13 @@
 <!-- les liens permettent de se déplacer à l'intérieur des rubriques d'un site. Ce sont pour les principaux des liens de navigation et on les regroupe dans un menu (barre de navigation) -->
 
-
-
 <!DOCTYPE html>
-
 <html lang="fr">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
     <link rel="stylesheet" href="css/style_recap.css">
-
     <title>Menu de navigation et propriétés CSS</title>
-
 </head>
 
 <body>
@@ -45,6 +35,7 @@
     <section class="container">
 
         <h3>Aide mémoire des sélecteurs CSS déjà vus</h3>
+        
 
             <ul>
 
@@ -67,6 +58,7 @@
 
 
     <div class="container1">
+            <a href="https://snob.ru/" id="snob">Snob</a>
 
         <section class="container2">
 
@@ -93,40 +85,54 @@
                     </li>
 
                     <li>float: effet flottant
-                        <p class="bleu">La propriété float indique qu'un élément doit être retiré du flux normal et doit être placé sur le côté droit ou sur le côté gauche de son conteneur. Le texte et les autres éléments en ligne (inline) entoureront alors l'élément flottant.</p>
+                        <p class="bleu">La propriété <strong><em>float</em></strong> indique qu'un élément doit être retiré du flux normal et doit être placé sur le côté droit ou sur le côté gauche de son conteneur. Le texte et les autres éléments en ligne (inline) entoureront alors l'élément flottant.</p>
                     </li>
 
                     <li>font-family: police
-                        <p class="vert">La propriété font-family permet de définir une liste, ordonnée par priorité, de polices à utiliser pour mettre en forme le texte de l'élément ciblé.</p>
+                        <p class="vert">La propriété <strong><em>font-family</em></strong> permet de définir une liste, ordonnée par priorité, de polices à utiliser pour mettre en forme le texte de l'élément ciblé.</p>
                     </li>
 
                     <li>font-size: taille de la police
-                        <p class="bleu">La propriété font-size permet de définir la taille de fonte utilisée pour le texte.Les valeurs peuvent être en pourcentage %, relative - larger, smaller,absolue - x-x-large, xx-large, en px, ou en em</p>
+                        <p class="bleu">La propriété <strong><em>font-size</em></strong> permet de définir la taille de fonte utilisée pour le texte.Les valeurs peuvent être en pourcentage %, relative - larger, smaller,absolue - x-x-large, xx-large, en px, ou en em</p>
+                     
                     </li>
 
                     <li>height: hauteur de l'élément
-                        <p class="vert">La propriété height définit la hauteur de la boîte de contenu d'un élément.La valeur se mesure en px, %, em. On peut utiliser les mots-cles comme <em>auto</em> ou les valeurs globales comme <strong>inherit,initial,unset</strong> </p>
+                        <p class="vert">La propriété <strong><em>height </em></strong>définit la hauteur de la boîte de contenu d'un élément.La valeur se mesure en px, %, em. On peut utiliser les mots-cles comme <em>auto</em> ou les valeurs globales comme <strong>inherit,initial,unset</strong> </p>
                     </li>
 
                     <li>left: position à partir de la gauche de la fenêtre</li>
+                    <p class="violet">La propriété <strong><em>left</strong></em> permet de définir une partie de la position des éléments positionnés. Elle n'a aucun effet pour les éléments non-positionnés.</p>
 
                     <li>line-height: hauteur de l'interligne</li>
+                    <p class="vert">Sur les éléments de bloc, la propriété <strong><em>line-height</em></strong> indique la hauteur minimale des lignes au sein de l'élément. Sur les éléments en ligne qui ne sont pas remplacés, line-height indique la hauteur utilisée pour calculer la hauteur de la boîte d'une ligne.</p>
 
                     <li>margin: marges extérieures</li>
+                    <p class="bleu">La propriété <strong><em>margin</strong></em> permet de définir la taille des marges sur les quatre côtés de l'élément. C'est une propriété raccourcie qui permet de manipuler les autres propriétés de marges :<strong><em></em> margin-top, margin-right, margin-bottom and margin-left</strong></em>.</p>
 
                     <li>padding: marges intérieures</li>
+                    <p class="violet">La propriété <strong><em>padding</strong></em> est une propriété raccourcie qui permet de définir les différents écarts de remplissage d'un élément, sur l'ensemble de ses côtés (cf. les boîtes CSS). Elle synthétise <strong><em>padding-top, padding-right, padding-bottom, padding-left</strong></em>.</p>
 
-                    <li>position: position de l'élément dans la page (on n'a utilisé que la valeur (fixed) pour l'instant)</li>
+                    <li>position: <strong><em>position</em></strong> de l'élément dans la page (on n'a utilisé que la valeur (fixed) pour l'instant)</li>
+                    <p class="vert">La propriété position définit la façon dont un élément est positionné dans un document. Les propriétés <strong><em>top, right, bottom et left </em></strong>déterminent l'emplacement final de l'élément positionné.</p>
 
                     <li>text-align: alignement du texte</li>
+                    <p class="bleu">La propriété <strong><em>text-align</em></strong> décrit la façon dont un texte en ligne (inline) est alignée dans le bloc de son élément parent. text-align ne contrôle pas l'alignement des éléments en bloc, uniquement celui du contenu en ligne.</p>
 
                     <li>text-decoration: changement des valeurs héritées (ici le souligné qui est standard pour les liens sous tous les navigateurs est supprimé)</li>
+                    <p class="violet">La propriété <strong><em>text-decoration</em></strong> est utilisée pour « décorer » le texte en ajoutant une ligne pouvant être positionnée sous, sur ou à travers le texte. C'est une propriété raccourcie qui permet de paramétrer simultanément les propriétés « détaillées » : text-decoration-line, text-decoration-color et text-decoration-style.</p>
 
                     <li>top: position à partir du haut de la fenêtre</li>
+                    <p class="vert">La propriété <strong><em>top</em></strong> définit une partie de la position des éléments positionnés, elle n'a aucun effet pour les éléments non-positionnés.</p>
 
                     <li>transition: temps de transition lors d'une animation (ici sur les liens de la barre de menus)</li>
+                    <p class="bleu">Les transitions CSS permettent de contrôler la vitesse d'animation lorsque les propriétés CSS sont modifiées. Plutôt que le changement soit immédiat, on peut l'étaler sur une certaine période. Ainsi, si on souhaite passer un élément de blanc à noir, on pourra utiliser les transitions CSS afin que cette modification soit effectuée progressivement, selon une courbe d'accélération donnée.</p>
 
-                    <li>width: largeur de l'élément par rapport à la taille de la fenêtre si on indique une valeur relative (%, em, ...)</li>
+                    <p class="violet">Les animations qui utilisent des transitions entre deux états sont souvent appelées transitions implicites car l'état initial et l'état final sont définis implicitement par le navigateur.</p>
+
+                    <li>width: largeur de l'élément par rapport à la taille de la fenêtre si on indique une valeur relative (%, em, ...)
+                        <p class="vert">La propriété <strong><em> width </em></strong>définit la largeur d'un élément. Par défaut, c'est la largeur de la zone de contenu (comprise à l'intérieur de la boîte de remplissage (padding), de la bordure (border) et de la boîte de marge (margin) de l'élément) mais si <strong><em>box-sizing vaut border-box,</em></strong> ce sera la largeur de la zone incluant la bordure.</p>
+                    </li>
 
                 </ol>
 
@@ -202,6 +208,8 @@
 
 
 
+
 </body>
+<script src="js/script.js"></script>
 
 </html>

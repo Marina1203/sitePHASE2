@@ -34,26 +34,27 @@ nav a:hover{/* tous les liens au survol de la souris dans la nav */
 .container{
     width: 70%;
     margin: 4% auto 2% auto;
-    background: #f1fcde;
+    background: lightseagreen;
     padding: 2em;
+
 }
 
 mark{
-    background: #b5a7cf;
+    background: darkmagenta;
 }
 
 /*2ème container*/
 .container1{
     width: 70%;
     margin: 2% auto; /*contraction pour 2% auto 2% auto*/
-    background: #f0e9fd;
+    background: dodgerblue;
     padding: 2%;
 }
 
 /*containers 3 et 4 imbriqués dans le container1*/
 .container2, .container3{
     width: 44.5%;
-    background: #f1fcde;
+    background: lightskyblue;
     padding: 2%;
     float: left;
 }
@@ -62,6 +63,11 @@ mark{
 }
 .container3{
     margin-left: 1.5%;
+    background: darksalmon;
+    border:7px solid darkcyan;
+    border-radius: 2em;
+    padding: 2px;
+    color: aqua;
 }
 
 /*5ème container*/
@@ -74,14 +80,40 @@ mark{
 }
 .ulrouge {
     background: violet;
+    border-radius: 3em;
+    padding: 1em;
+    border: darkblue dotted 3px;
 }
 .police {
-    color: red;
+    color:darkred;
  
 }
 .bleu {
     background: lightseagreen;
+    border-radius: 3em;
+    border: red dotted 3px;
+    padding: 1em;
 }
 .vert {
     background: lawngreen;
+    border-radius: 3em;
+    padding: 1em;
+    border: darkblue dotted 3px;
+}
+.violet {
+    background: palevioletred;
+    text-decoration: darkblue solid underline;
+    border-radius: 3em;
+    padding: 1em;
+    border: darkblue dotted 3px;
+
+}
+li {
+    font-weight: bold;
+}
+ul li {
+    font-weight: 100;
+}
+li p {
+    font-weight: 100;
 }

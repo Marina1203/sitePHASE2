@@ -1,0 +1,59 @@
+body {
+    background: url('../img/12_panoramic.jpg');
+    margin: 0 auto;
+}
+#container {
+    margin: 0 auto;
+    text-align: center;
+    width: 1200px;
+    background: red;
+    height: 1200px;
+   
+}
+header {
+    height: 80px;
+    background: yellowgreen;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+nav {
+    height: 70px;
+    background: mediumslateblue;
+   
+}
+section {
+    background: palevioletred;
+    height: 900px;
+    margin: 50px;
+    text-align: center;
+}
+footer {
+    background: yellow;
+    height: 80px;
+}
+.imgvoilier {
+   float: left;
+   /*  margin: 10px; */
+    width: 20%;
+    background: lightseagreen;
+    /* padding-top: 20px; */
+    /* border-radius: 2em; */
+    /* image-orientation: flip; */
+   /*  border: 3px dotted white; */
+}
+/* pour mettre la caption la légende sur l'image */
+figure {
+    position: relative;
+    margin: 0;
+
+}
+
+figcaption{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 255, 0.096);
+} 
+

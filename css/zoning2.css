@@ -1,0 +1,100 @@
+/* le fond du zoning */
+body {
+    margin: 0 auto;
+    background-image: url('../img/Plages-paradisiaques-et-si-on-revait-un-peu.jpg');
+
+}
+/* id de la div principale */
+#container{
+    margin: 0 auto;
+    width: 1200px;
+    height: 1000px;
+    text-align: center;
+}
+/* le haut de la page se trouvant dans le container */
+header {
+    background: palevioletred;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 20px;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    border: darkblue 5px solid;
+    color: aliceblue;
+    box-sizing: border-box;
+    border-radius: 2em 0 2em 0;
+    background: url('../img/166_banniere_1.jpg') no-repeat center;
+}
+
+aside {
+    width: 200px;
+    height: 800px;
+    background: lightgreen;
+    float: left;
+    border: white 5px solid;
+    color: aliceblue;
+    box-sizing: border-box;
+}
+
+.milieu {
+    width: 800px;
+    height: 800px;
+    background: darkcyan;
+    float: left;
+    word-spacing: 1px;
+    border: white 5px solid;
+    color: aliceblue;
+    box-sizing: border-box;
+}
+.droite {
+    width: 200px;
+    height: 800px;
+    background: lightgreen;
+    float: left;
+    border: white 5px solid;
+    color: aliceblue;
+    box-sizing: border-box;
+}
+.clear {
+    clear: both;
+}
+aside p {
+    font-size: 1.2em;
+    padding-top: 30px;
+    padding-right: 20px;
+    letter-spacing: 1px;
+   
+}
+.milieu p{
+    font-size: 1.2em;
+    padding-top: 30px;
+    padding-left: 120px;
+   
+}
+.droite p {
+    font-size: 1.2em;
+    padding-top: 30px;
+    padding-left: 20px;
+    letter-spacing: 1px;
+    
+
+}
+footer {
+    background: darkblue;
+    height: 120px;
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    border: darkred 5px solid;
+    color: aliceblue;
+    box-sizing: border-box;
+    border-radius: 2em 0 2em 0;
+}
+footer p {
+    font-size: 1.2em;
+    padding-top: 10px;
+    padding-left: 20px;
+    letter-spacing: 1px;
+}

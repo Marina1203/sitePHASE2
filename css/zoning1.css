@@ -1,0 +1,51 @@
+/* le fond du zoning */
+body {
+    margin: 0 auto;
+    background: pink;
+
+}
+/* id de la div principale */
+#container{
+    background: pink;
+    margin: 0 auto;
+    width: 1200px;
+    height: 1000px;
+}
+/* le haut de la page se trouvant dans le container */
+header {
+    background: lemonchiffon;
+    height: 120px;
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+section {
+    margin: 0 auto;
+    width: 1200px;
+    height: 800px;
+}
+.gauche {
+    width: 200px;
+    background: lightgreen;
+    height: 800px;
+    float: left;
+}
+.droite {
+    width: 1000px;
+    background: gray;
+    float: left;
+    height: 800px;
+}
+.gauche p {
+    padding-left: 40px;
+    padding-top: 50px;
+    font-size: 1.2em;
+}
+.droite p {
+    padding-left: 280px;
+    font-size: 1.3em;
+    padding-top: 50px;
+}
