@@ -38,15 +38,34 @@ body {
     background: teal;
     width: 1000px;
     margin: 0 auto;
-    height: 800px;
+    height: 880px;
+    padding-top: 30px;
 }
-section {
+ section {
     background: whitesmoke;
     width: 900px;
-    position: relative;
-    top: 20px;
-    left: 20px;
+    height: 780px;
+    margin: 45px;
+    padding-top: 20px;
 
-    height: 700px;
-
+}
+.orange {
+    background: orange;
+    height: 180px;
+    margin: 10px;
+}
+.violette {
+    background: mediumorchid;
+    height: 220px;
+    margin: 10px;
+}
+.rouge {
+    background: red;
+    height: 320px;
+    margin: 10px;
+}
+figure img{
+    height: 200px;
+    width: 200px;
+    padding-top: 5px;
 }
