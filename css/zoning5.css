@@ -1,0 +1,52 @@
+@charset "UTF-8";
+body {
+    background: pink;
+    margin: 0 auto;
+}
+.navbar {
+    background: lightskyblue;
+    position: fixed; /*  le menu est fixé en haut de page */
+    top: 0;  /* tout en haut de page */
+    left: 0; /*  tout à gauche */
+    width: 100%;
+    height: 50px;
+
+}
+.navbar a {
+    
+    color:darkmagenta;
+    text-align: center;
+    display: block;
+    float: right;
+    padding: 20px 10px;
+    text-decoration: none;
+   
+   
+   
+}
+.clear {
+    clear: both;
+}
+.logo {
+    float: left;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    padding: 20px 10px;
+}
+#main {
+    background: teal;
+    width: 1000px;
+    margin: 0 auto;
+    height: 800px;
+}
+section {
+    background: whitesmoke;
+    width: 900px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+
+    height: 700px;
+
+}

@@ -1,0 +1,70 @@
+@charset "UTF-8";
+body {
+    background: lightgoldenrodyellow;
+    margin: 0 auto;
+}
+#main {
+    background: black;
+    margin: 0 auto;
+    width: 1200px;
+    height:700px;
+    text-align: center;
+    border: 1px solid red;
+    margin-top: 10px;
+    
+}
+header {
+    background: mediumvioletred;
+    width: 1200px;
+    height: 75px;
+   
+}
+nav {
+    background: palevioletred;
+    width: 1200px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+.principale {
+    width: 1200px;
+    height: 750px;
+    background: lightgreen;
+    padding-top: 20px;
+
+}
+
+section {
+    width: 1100px;
+    height: 650px;
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+.vert {
+    background: lawngreen;
+    width: 550px;
+    height:300px;
+    float: left;
+}
+.bleu {
+    background: darkcyan;
+    width: 550px;
+    height: 300px;
+    float: left;
+
+}
+.vert p {
+    padding-top: 25%;
+}
+.bleu p {
+    padding-top: 25%;
+}
+.clear {
+    clear: both;
+}
+footer {
+    background: khaki;
+    height: 75px;
+    border-top: 10px solid blue;
+
+}
