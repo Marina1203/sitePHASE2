@@ -676,43 +676,25 @@ footer div {
     float: left;
 }
 .float {
-
     height: 170px;
- 
     width: 170px;
- 
-    background: #FFF1A8
- 
- ;
- 
-    margin: 10px;
- 
-    padding-top: 2px;
- 
-    float: left;
- 
-    text-align: center;
- 
-    font-size: 25px;
- 
-    border: 2px solid darkred;
- 
- }.dernier {
- 
-    height: 170px;
- 
-    width: 170px;
- 
     background: #FFF1A8;
- 
     margin: 10px;
- 
     padding-top: 2px;
- 
+    float: left;
     text-align: center;
- 
     font-size: 25px;
+    border: 2px solid darkred;}
+    
+    .dernier {
  
+    height: 170px;
+    width: 170px;
+    background: #FFF1A8;
+    margin: 10px;
+    padding-top: 2px;
+    text-align: center;
+    font-size: 25px;
     border: 2px solid darkred;
  
  }
