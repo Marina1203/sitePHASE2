@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/fontawesome-all.css"> 
     <title>Zoning</title>
     <link rel="stylesheet" href="css/zoning5.css">
-    <link rel="stylesheet" href="css/reset.css">
+    <!-- <link rel="stylesheet" href="css/reset.css"> -->
 </head>
 <body>
-        <div class="logo">
+        <div class="logo"> <!-- le logo dans la navbar -->
                 <a href="#">Bienvenu</a>
         </div >
   
-    <div class="navbar">
+    <div class="navbar"> <!-- les links dans la navbar -->
             
             <a href="#contact">Zone orange</a>
         <a href="#actu">Zone violette</a>
@@ -21,15 +22,58 @@
        
     </div> <!-- fin de la navbar -->
     
-    <div id="main">
-        <section>
-            <div class="orange"></div>
-            <div class="violette"></div>
-            <div class="rouge"></div>
-        </section>
-        <div class="clear"></div>
+    <div id="main"> <!-- début de la div principale -->
+        <section> <!-- début de la section -->
+            <div class="orange"> <!-- première div avec une classe orange -->
+                <h3>Titre de la zone orange</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ipsum culpa voluptatibus exercitationem possimus doloribus dolore, rem odit libero tempora assumenda vitae suscipit eum sequi et. Maiores laudantium numquam placeat.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa pariatur facere dolor adipisci mollitia voluptatum hic. Atque expedita ex quis quisquam perferendis hic sequi, voluptatum cum sit. Aperiam, numquam eum.</p>
+            </div>  <!-- fin de la première div avec une classe orange -->
+            <div class="violette">  <!-- deuxième div avec une classe violette -->
+                <h3>Titre de la zone violette</h3>
+            <div class="image">    <figure><img src="img/philharmonie01.png" width="160px" height="140px" style="border: whitesmoke 6px solid" alt="Logo Philarmonie"><figcaption>La Philarmonie de Paris</figcaption></figure> <!-- une image dans la zone  avec son figcaption --></div>
+              <div class="formulaire"> <!-- un formulaire avec select et option pour la zone de droite -->
+                    <form>
+                            <label for="avis">Votre instrument préfére?<i class="fas fa-music"></i><i class="fas fa-music"></i><i class="fas fa-music"></i></label>
+                            <select name="Choix de musique" size="1">
+                            <option value="piano">Piano</option>
+                            <option value="violoncelle">Violoncelle</option>
+                            <option value="quitare">Guitare</option>
+                            <option value="violon">Violon</option>
+                            <option value="Tambour">Tambour</option>
+                        
+                            </select><br><br>
+                            
+                   <label for="message">Vos commentaires<i class="fas fa-eye"></i></label>
+                  
+                   <textarea id="message" name="message" rows="3"
+                   cols="20"></textarea><br>
+            
+                   <input type="submit" name="envoyer" value="Envoyer">
+                   <input type="reset" name="annuler" value="Annuler">
+                        </form>
+                     
+              </div> <!-- fin de formulaire -->
+
+            </div>  <!-- fin de la deuxième div avec une classe violette et une image -->
+            <div class="clear"></div> <!-- div clear pour remettre le flux à la normale -->
+            <div class="rouge">  <!-- troisième div avec une classe rouge -->
+              
+                    <h3>Titre de la zone rouge</h3>
+                    <aside> <!-- un aside pour la zone gauche qui contient une image -->
+                    <figure><img src="img/plage animé.gif" alt="Plage animée" width="350px" height="220px" style="border:paleturquoise 8px solid"><figcaption>La Plage paradisiaque</figcaption></figure>
+               </aside>
+                <article><!--  un article avec du texte pour la zone à droite -->
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, incidunt consectetur cumque suscipit laborum iusto vel harum molestiae tempora facere recusandae nisi laudantium. Laudantium ipsam, repellendus vero esse earum quia.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolore veritatis corrupti repellat quaerat animi fuga expedita at! Aliquam, fugiat esse culpa deserunt modi rerum officia. Quo architecto odio vel.</p>
+                </article>
+
+
+            </div>
+        </section> <!-- fin de la section -->
+        <div class="clear"></div> <!-- div clear pour remettre le flux à la normale -->
     </div>
-    <footer></footer>
+    <footer>Juin 2018</footer> <!-- le footer fixé en bas de la page -->
     
     
     

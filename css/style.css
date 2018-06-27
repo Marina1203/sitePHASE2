@@ -291,22 +291,24 @@ footer {
 
 
 button {
-
     font-size: 350%;
-
     background: transparent;
-
     border: none;
-
     color: #2c3e50;  
-
     position: fixed;/* le button est fixe a 40px et a 20px de la droite */
-
     bottom: 40px;
-
     right: 20px;  
-
 }
+.boutonhaut {
+    font-size: 350%;
+    background: transparent;
+    border: none;
+    color: #2c3e50;  
+    position: fixed;/* le button est fixe a 40px et a 20px de la droite */
+    bottom: 40px;
+    right: 20px;  
+}
+
 
 
 
