@@ -47,16 +47,24 @@ body {
 }
 #main {
     background: teal;
+<<<<<<< HEAD
     width: 940px;
     margin:  auto;
     height: 780px;
     padding-top: 50px;
     padding-left: 5px;
    
+=======
+    width: 1000px;
+    margin: 0 auto;
+    height: 880px;
+    padding-top: 30px;
+>>>>>>> 149d47110fbc28c044585602cbbef086bc359f72
 }
-section {
+ section {
     background: whitesmoke;
     width: 900px;
+<<<<<<< HEAD
     height: 720px;
     margin: auto;
     margin-top: 20px;
@@ -152,3 +160,30 @@ section h3{
     border: 2px dotted white;
   
 }
+=======
+    height: 780px;
+    margin: 45px;
+    padding-top: 20px;
+
+}
+.orange {
+    background: orange;
+    height: 180px;
+    margin: 10px;
+}
+.violette {
+    background: mediumorchid;
+    height: 220px;
+    margin: 10px;
+}
+.rouge {
+    background: red;
+    height: 320px;
+    margin: 10px;
+}
+figure img{
+    height: 200px;
+    width: 200px;
+    padding-top: 5px;
+}
+>>>>>>> 149d47110fbc28c044585602cbbef086bc359f72
